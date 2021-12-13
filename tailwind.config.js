@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Jura: ['"Jura"', "sans-serif"],
+      },
       colors: {
         purple: {
           btn: "#debfff",
