@@ -30,6 +30,7 @@ export default function Home() {
         setLoading(false);
       } else {
         setLoading(false);
+        console.log(res);
         alert("Κάτι πήγε λάθος με την αποστολή της φόρμας.");
       }
     });
